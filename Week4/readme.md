@@ -44,7 +44,7 @@ int main() {
 ```
 
 
-  - int.c
+  - inc.c
     - 증감연산자 선위, 후위 개념
 ```C
 #include <stdio.h>
