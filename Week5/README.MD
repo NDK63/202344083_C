@@ -53,3 +53,42 @@ int main(void) {
     }
 }
 ```
+  - classify.c
+    - 입력받은 문자를 아스키코드를 이용하여 분류
+```c
+#include <stdio.h>
+
+int main(void) {
+    printf("문자를 입력하세요 : ");
+    char ch = getchar();
+
+    if(ch >= 65 && ch <= 90) {
+        printf("%c는 대문자입니다.", ch);
+    } else if(ch >= 97 && ch <= 122) {
+        printf("%c는 소문자입니다.", ch);
+    } else if(ch >= 48 && ch <= 57) {
+        printf("%c는 숫자입니다.", ch);
+    } else {
+        printf("%c는 기타문자입니다.", ch);
+    }
+}
+```
+  - compare.c
+    - 입력받은 정수 두 개의 크기 비교
+```c
+#include <stdio.h>
+
+int main(void) {
+    int num1, num2;
+    printf("정수를 두 개 입력하세요 : ");
+    scanf("%d %d", &num1, &num2);
+
+    if(num1 > num2) {
+        printf(">");
+    } else if(num1 < num2) {
+        printf("<");
+    } else {
+        printf("==");
+    }
+}
+```
