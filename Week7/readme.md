@@ -26,4 +26,40 @@ int main(void) {
     return 0;
 }
 ```
-  
+  - printstar.c
+    - 함수를 활용하여 별을 출력한다.
+```c
+#include <stdio.h>
+
+void print_stars() {
+    for(int i = 0; i < 30; i++) {
+        printf("*");
+    }
+    printf("\n");
+}
+int main(void) {
+    print_stars();
+    printf("Hello World!\n");
+    print_stars();
+}
+```
+```
+  - max.c
+    - 조건연산자와 함수를 활용하여 두 수 중 큰 값을 출력한다.
+```c
+#include <stdio.h>
+
+int max(int a, int b) {
+    return a > b ? a : b;
+}
+
+int main(void) {
+    int a = 0;
+    int b = 0;
+
+    printf("정수 두 개를 입력하세요.");
+    scanf("%d %d", &a, &b);
+    
+    printf("%d", max(a, b));
+}
+```
