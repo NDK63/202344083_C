@@ -1,4 +1,4 @@
-shopping.c
+shopping.c <br>
 price와 grade를 입력받은 후 grade에 맞는 할인율을 적용하여 가격을 리턴하는 함수 만들기
 
 sosu.c
