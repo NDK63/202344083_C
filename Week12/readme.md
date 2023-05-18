@@ -18,11 +18,14 @@
 데이터의 크기가 주어진 범위를 벗어날 경우는 "INPUT ERROR!"를 출력하고 s와 e를 다시 입력받는다.<br>
 <br>
 <br>
+
 - array_lotto.c<br>
 크기 6의 정수 배열에 1~45 사이의 난수를 각 인덱스마다 넣어 출력한다.
 <br>
+
 - array_score.c<br>
 배열에 값을 입력받고 평균을 출력한다.
 <br>
+
 - array_size.c<br>
 sizeof 함수를 사용하여 배열의 크기를 구한다.
